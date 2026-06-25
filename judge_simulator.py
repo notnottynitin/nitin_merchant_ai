@@ -21,14 +21,14 @@ Author: magicpin AI Challenge Team
 # =============================================================================
 
 # Your bot's URL (where your bot is running)
-BOT_URL = "http://localhost:8080"
+BOT_URL = "https://nitin-merchant-ai-s6k5.onrender.com"
 
 # Choose your LLM provider: "openai", "anthropic", "gemini", "deepseek", "groq", "ollama", "openrouter"
 LLM_PROVIDER = "gemini"
 
 # Your API key (paste your key here)
 # LLM_API_KEY = ""  # <-- PUT YOUR API KEY HERE
-LLM_API_KEY = ""
+LLM_API_KEY = "AIzaSyBb_TkVQXFTmpZ6CBr5-eBXiWV3TH7BH6Y"
 
 # Model to use (leave empty for default, or specify like "gpt-4o", "claude-3-5-sonnet-20241022", etc.)
 LLM_MODEL = "gemini-2.5-flash"  # <-- Optional: specify model or leave empty for default

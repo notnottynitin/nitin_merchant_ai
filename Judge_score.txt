@@ -1,0 +1,319 @@
+C:\Users\ANITA\Desktop\nitin_merchant_ai>python judge_simulator.py
+
+======================================================================
+                  magicpin AI Challenge — LLM Judge
+======================================================================
+
+[INFO] LLM Provider: Gemini (gemini-2.5-flash)
+[INFO] Testing LLM connection...
+[PASS] LLM connected successfully
+
+======================================================================
+                     LLM JUDGE — FULL_EVALUATION
+======================================================================
+
+[INFO] Bot: https://nitin-merchant-ai-s6k5.onrender.com
+[INFO] LLM: Gemini (gemini-2.5-flash)
+[INFO] Loaded: 5 categories, 10 merchants, 25 triggers
+
+--- WARMUP ---
+
+[PASS] healthz (418ms)
+[PASS] metadata — Team: Nitin_Merchant_AI, Model: rule-based composer
+
+--- CONTEXT PUSH ---
+
+C:\Users\ANITA\Desktop\nitin_merchant_ai\judge_simulator.py:422: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "payload": payload, "delivered_at": datetime.utcnow().isoformat() + "Z"
+  [PASS] category/dentists
+  [PASS] category/gyms
+  [PASS] category/pharmacies
+  [PASS] category/restaurants
+  [PASS] category/salons
+  [PASS] merchant/001
+  [PASS] merchant/002
+  [PASS] merchant/003
+  [PASS] merchant/004
+  [PASS] merchant/005
+
+--- FULL EVALUATION ---
+
+[PASS] All contexts pushed
+
+--- SCORING COMPOSITIONS ---
+
+C:\Users\ANITA\Desktop\nitin_merchant_ai\judge_simulator.py:427: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "now": datetime.utcnow().isoformat() + "Z", "available_triggers": triggers
+[INFO] Batch 1: 5 actions (268ms)
+[LLM] Analyzing message...
+
+Message: "Dr. Meera, JIDA Oct 2026, p.14 has one useful upda..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Dr. Meera's Dental Clinic team, compliance heads-u..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Dr. Meera's Dental Clinic, quick growth idea: your..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Bharat Dental Care, quick alert — your calls dropp..."
+  Specificity            [██████████████░░░░░░]  7/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 27/50
+[LLM] Analyzing message...
+
+Message: "Bharat Dental Care, your Pro plan renewal is due i..."
+  Specificity            [██████████████████░░]  9/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 29/50
+[INFO] Batch 2: 5 actions (271ms)
+[LLM] Analyzing message...
+
+Message: "Studio11 Family Salon, quick growth idea: your 30-..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Studio11 Family Salon, quick growth idea: your 30-..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Hi Lakshmi! Quick check — what service has been mo..."
+  Specificity            [██████████░░░░░░░░░░]  5/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 25/50
+[LLM] Analyzing message...
+
+Message: "Glamour Lounge Spa & Salon, quick growth idea: you..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "SK Pizza Junction, quick growth idea: your 30-day ..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[INFO] Batch 3: 5 actions (301ms)
+[LLM] Analyzing message...
+
+Message: "SK Pizza Junction, quick growth idea: your 30-day ..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Mylari South Indian Cafe, quick growth idea: your ..."
+  Specificity            [██████████████████░░]  9/10
+  Category Fit           [██████████████░░░░░░]  7/10
+  Merchant Fit           [██████████████████░░]  9/10
+  Decision Quality       [██░░░░░░░░░░░░░░░░░░]  1/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 31/50
+[LLM] Analyzing message...
+
+Message: "Mylari South Indian Cafe, quick growth idea: your ..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "PowerHouse Fitness, quick growth idea: your 30-day..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "PowerHouse Fitness, quick growth idea: your 30-day..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[INFO] Batch 4: 5 actions (683ms)
+[LLM] Analyzing message...
+
+Message: "Zen Yoga Studio, quick growth idea: your 30-day pr..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+[WARN] LLM error: HTTP Error 429: Too Many Requests
+
+Message: "Zen Yoga Studio, quick growth idea: your 30-day pr..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Apollo Health Plus Pharmacy, quick growth idea: yo..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Apollo Health Plus Pharmacy, quick growth idea: yo..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Apollo Health Plus Pharmacy, quick growth idea: yo..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[INFO] Batch 5: 5 actions (265ms)
+[LLM] Analyzing message...
+
+Message: "Sunrise Medicos, quick growth idea: your 30-day pr..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+[WARN] LLM error: HTTP Error 429: Too Many Requests
+
+Message: "Dr. Meera's Dental Clinic, quick growth idea: your..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+[WARN] LLM error: HTTP Error 429: Too Many Requests
+
+Message: "Dr. Meera's Dental Clinic, quick growth idea: your..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+
+Message: "Zen Yoga Studio, quick growth idea: your 30-day pr..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+[LLM] Analyzing message...
+[WARN] LLM error: HTTP Error 429: Too Many Requests
+
+Message: "Glamour Lounge Spa & Salon, quick growth idea: you..."
+  Specificity            [████████████████████] 10/10
+  Category Fit           [██████████░░░░░░░░░░]  5/10
+  Merchant Fit           [██████████░░░░░░░░░░]  5/10
+  Decision Quality       [██████████░░░░░░░░░░]  5/10
+  Engagement             [██████████░░░░░░░░░░]  5/10
+
+  TOTAL: 30/50
+
+--- FINAL SUMMARY ---
+
+[INFO] Messages scored: 25
+
+  Avg Specificity        [██████████████████░░]  9/10
+  Avg Category Fit       [██████████░░░░░░░░░░]  5/10
+  Avg Merchant Fit       [██████████░░░░░░░░░░]  5/10
+  Avg Decision Quality   [████████░░░░░░░░░░░░]  4/10
+  Avg Engagement         [██████████░░░░░░░░░░]  5/10
+
+  AVERAGE SCORE: 28/50 (56%)
+
+  NEEDS IMPROVEMENT
