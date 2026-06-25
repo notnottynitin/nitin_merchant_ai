@@ -5,6 +5,13 @@ import time
 app = FastAPI()
 START_TIME = time.time()
 
+@app.get("/")
+def root():
+    return {
+        "message": "Nitin Merchant AI is running.",
+        "status": "ok"
+    }
+
 store = {
     "category": {},
     "merchant": {},
